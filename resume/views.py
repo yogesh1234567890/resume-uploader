@@ -5,6 +5,7 @@ from PyPDF2 import PdfFileReader
 from resume.forms import *
 from files.files import *
 import datetime
+import os
 
 
 
@@ -27,7 +28,7 @@ def fronts(request):
 
 
 def file(request):
-    pdfFileObj = open('/home/yogesh/Desktop/cv/files/files/sample.pdf', 'rb')
+    pdfFileObj = open('/home/yogesh/Desktop/cv/files/files/cv.pdf', 'rb')
     pdfReader = PdfFileReader(pdfFileObj)
     pageObj = pdfReader.getPage(0)
     text=pageObj.extractText()

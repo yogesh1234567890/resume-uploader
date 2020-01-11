@@ -4,8 +4,16 @@ Resume
 {% endblock%}
 
 {% block content%}
+<h1>Skills details</h1>
+<style>
+.container-fluid{
+    background-color:pink;
+    text-align: justify;
+    font-size:xx-large;
+    </style>
+<div class="container-fluid">
 {% for d in display %}
 {{d}}
 {% endfor %}
-
+</div>
 {% endblock %}
