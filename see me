@@ -1,0 +1,10 @@
+# resume-uploader
+This is just a basicc application which takes a pdf file stores in local files directory and reads the contents and renders the data in the page.
+Its not perfect but i have tried to maintain.
+please use the attached sample.pdf file to upload to see the data .
+I havent been able to manage the directory path in views to display any pdfs so its little bit not applicable for other pdfs.
+Also the data of skills isnt shown but the whole data is shown.
+I couldnt figure out the process and i am still looking into it.
+
+Reviews would be appreciated.
+THank you
