@@ -28,7 +28,7 @@ def fronts(request):
 
 
 def file(request):
-    pdfFileObj = open('/home/yogesh/Desktop/cv/files/sample.pdf', 'rb')
+    pdfFileObj = open('/home/yogesh/Desktop/cv/files/cv.pdf', 'rb')
     pdfReader = PdfFileReader(pdfFileObj)
     pageObj = pdfReader.getPage(0)
     text=pageObj.extractText()
