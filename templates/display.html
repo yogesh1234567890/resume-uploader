@@ -2,8 +2,10 @@
 {% block title%}
 Resume 
 {% endblock%}
-{% block content%}
 
-<h1>uploaded</h1>
+{% block content%}
+{% for d in display %}
+{{d}}
+{% endfor %}
 
 {% endblock %}
