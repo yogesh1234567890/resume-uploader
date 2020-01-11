@@ -3,7 +3,7 @@ from django.http import request, HttpResponse
 from resume.models import Resume
 from PyPDF2 import PdfFileReader
 from resume.forms import *
-from files.files import *
+from files import *
 import datetime
 import os
 
